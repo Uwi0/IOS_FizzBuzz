@@ -14,6 +14,7 @@
 		FB71BE6F2C88EB560026D5BC /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71BE6E2C88EB560026D5BC /* FizzBuzzTests.swift */; };
 		FB71BE792C88EB560026D5BC /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71BE782C88EB560026D5BC /* FizzBuzzUITests.swift */; };
 		FB71BE7B2C88EB560026D5BC /* FizzBuzzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71BE7A2C88EB560026D5BC /* FizzBuzzUITestsLaunchTests.swift */; };
+		FB71BE882C88EE590026D5BC /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71BE872C88EE590026D5BC /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FB71BE742C88EB560026D5BC /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB71BE782C88EB560026D5BC /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		FB71BE7A2C88EB560026D5BC /* FizzBuzzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB71BE872C88EE590026D5BC /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				FB71BE5C2C88EB550026D5BC /* FizzBuzzApp.swift */,
 				FB71BE5E2C88EB550026D5BC /* MainView.swift */,
+				FB71BE872C88EE590026D5BC /* AboutView.swift */,
 				FB71BE602C88EB560026D5BC /* Assets.xcassets */,
 				FB71BE622C88EB560026D5BC /* FizzBuzz.entitlements */,
 				FB71BE632C88EB560026D5BC /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB71BE5F2C88EB550026D5BC /* MainView.swift in Sources */,
+				FB71BE882C88EE590026D5BC /* AboutView.swift in Sources */,
 				FB71BE5D2C88EB550026D5BC /* FizzBuzzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
