@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1650842C898FE400C18D18 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1650832C898FE400C18D18 /* BackgroundImageView.swift */; };
 		FB71BE5D2C88EB550026D5BC /* FizzBuzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71BE5C2C88EB550026D5BC /* FizzBuzzApp.swift */; };
 		FB71BE5F2C88EB550026D5BC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71BE5E2C88EB550026D5BC /* MainView.swift */; };
 		FB71BE612C88EB560026D5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB71BE602C88EB560026D5BC /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB1650832C898FE400C18D18 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		FB71BE592C88EB550026D5BC /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB71BE5C2C88EB550026D5BC /* FizzBuzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzApp.swift; sourceTree = "<group>"; };
 		FB71BE5E2C88EB550026D5BC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB16507E2C898F2700C18D18 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB1650822C898F7500C18D18 /* supportingView */,
+				FB1650812C898F6300C18D18 /* mainView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FB16507F2C898F3500C18D18 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		FB1650802C898F3B00C18D18 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FB1650812C898F6300C18D18 /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				FB71BE5E2C88EB550026D5BC /* MainView.swift */,
+				FB71BE872C88EE590026D5BC /* AboutView.swift */,
+			);
+			path = mainView;
+			sourceTree = "<group>";
+		};
+		FB1650822C898F7500C18D18 /* supportingView */ = {
+			isa = PBXGroup;
+			children = (
+				FB1650832C898FE400C18D18 /* BackgroundImageView.swift */,
+			);
+			path = supportingView;
+			sourceTree = "<group>";
+		};
 		FB71BE502C88EB550026D5BC = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +139,10 @@
 		FB71BE5B2C88EB550026D5BC /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				FB1650802C898F3B00C18D18 /* model */,
+				FB16507F2C898F3500C18D18 /* viewModel */,
+				FB16507E2C898F2700C18D18 /* view */,
 				FB71BE5C2C88EB550026D5BC /* FizzBuzzApp.swift */,
-				FB71BE5E2C88EB550026D5BC /* MainView.swift */,
-				FB71BE872C88EE590026D5BC /* AboutView.swift */,
 				FB71BE602C88EB560026D5BC /* Assets.xcassets */,
 				FB71BE622C88EB560026D5BC /* FizzBuzz.entitlements */,
 				FB71BE632C88EB560026D5BC /* Preview Content */,
@@ -264,6 +307,7 @@
 			files = (
 				FB71BE5F2C88EB550026D5BC /* MainView.swift in Sources */,
 				FB71BE882C88EE590026D5BC /* AboutView.swift in Sources */,
+				FB1650842C898FE400C18D18 /* BackgroundImageView.swift in Sources */,
 				FB71BE5D2C88EB550026D5BC /* FizzBuzzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
