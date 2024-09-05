@@ -19,6 +19,7 @@
 		FBA2BDBA2C89B96100205D73 /* NiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDB92C89B96100205D73 /* NiceTextView.swift */; };
 		FBA2BDBC2C89B9EB00205D73 /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBB2C89B9EB00205D73 /* FizzBuzzView.swift */; };
 		FBA2BDBE2C89BBA200205D73 /* CodeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBD2C89BBA200205D73 /* CodeCreatorView.swift */; };
+		FBA2BDC02C89BEBF00205D73 /* FizzBuzzAlgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FBA2BDB92C89B96100205D73 /* NiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceTextView.swift; sourceTree = "<group>"; };
 		FBA2BDBB2C89B9EB00205D73 /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
 		FBA2BDBD2C89BBA200205D73 /* CodeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCreatorView.swift; sourceTree = "<group>"; };
+		FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		FB1650802C898F3B00C18D18 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				FB71BE5F2C88EB550026D5BC /* MainView.swift in Sources */,
 				FBA2BDBE2C89BBA200205D73 /* CodeCreatorView.swift in Sources */,
 				FB71BE882C88EE590026D5BC /* AboutView.swift in Sources */,
+				FBA2BDC02C89BEBF00205D73 /* FizzBuzzAlgModel.swift in Sources */,
 				FB1650842C898FE400C18D18 /* BackgroundImageView.swift in Sources */,
 				FBA2BDBA2C89B96100205D73 /* NiceTextView.swift in Sources */,
 				FB71BE5D2C88EB550026D5BC /* FizzBuzzApp.swift in Sources */,
