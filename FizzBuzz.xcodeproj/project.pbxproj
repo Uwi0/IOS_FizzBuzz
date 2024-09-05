@@ -20,6 +20,8 @@
 		FBA2BDBC2C89B9EB00205D73 /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBB2C89B9EB00205D73 /* FizzBuzzView.swift */; };
 		FBA2BDBE2C89BBA200205D73 /* CodeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBD2C89BBA200205D73 /* CodeCreatorView.swift */; };
 		FBA2BDC02C89BEBF00205D73 /* FizzBuzzAlgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */; };
+		FBB39CE62C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB39CE52C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift */; };
+		FBB39CE92C89DC3500AE3BF5 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB39CE82C89DC3500AE3BF5 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		FBA2BDBB2C89B9EB00205D73 /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
 		FBA2BDBD2C89BBA200205D73 /* CodeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCreatorView.swift; sourceTree = "<group>"; };
 		FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgModel.swift; sourceTree = "<group>"; };
+		FBB39CE52C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgViewModel.swift; sourceTree = "<group>"; };
+		FBB39CE82C89DC3500AE3BF5 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		FB16507F2C898F3500C18D18 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FBB39CE52C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		FB71BE5B2C88EB550026D5BC /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				FBB39CE72C89DC1700AE3BF5 /* extensions */,
 				FB1650802C898F3B00C18D18 /* model */,
 				FB16507F2C898F3500C18D18 /* viewModel */,
 				FB16507E2C898F2700C18D18 /* view */,
@@ -185,6 +191,14 @@
 				FB71BE7A2C88EB560026D5BC /* FizzBuzzUITestsLaunchTests.swift */,
 			);
 			path = FizzBuzzUITests;
+			sourceTree = "<group>";
+		};
+		FBB39CE72C89DC1700AE3BF5 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBB39CE82C89DC3500AE3BF5 /* StringExtensions.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +333,8 @@
 			files = (
 				FBA2BDBC2C89B9EB00205D73 /* FizzBuzzView.swift in Sources */,
 				FB71BE5F2C88EB550026D5BC /* MainView.swift in Sources */,
+				FBB39CE92C89DC3500AE3BF5 /* StringExtensions.swift in Sources */,
+				FBB39CE62C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift in Sources */,
 				FBA2BDBE2C89BBA200205D73 /* CodeCreatorView.swift in Sources */,
 				FB71BE882C88EE590026D5BC /* AboutView.swift in Sources */,
 				FBA2BDC02C89BEBF00205D73 /* FizzBuzzAlgModel.swift in Sources */,
