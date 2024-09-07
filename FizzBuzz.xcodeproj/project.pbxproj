@@ -22,6 +22,7 @@
 		FBA2BDC02C89BEBF00205D73 /* FizzBuzzAlgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */; };
 		FBB39CE62C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB39CE52C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift */; };
 		FBB39CE92C89DC3500AE3BF5 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB39CE82C89DC3500AE3BF5 /* StringExtensions.swift */; };
+		FBBECB0E2C8C0631001E6B93 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBECB0D2C8C0631001E6B93 /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FBA2BDBF2C89BEBF00205D73 /* FizzBuzzAlgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgModel.swift; sourceTree = "<group>"; };
 		FBB39CE52C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgViewModel.swift; sourceTree = "<group>"; };
 		FBB39CE82C89DC3500AE3BF5 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		FBBECB0D2C8C0631001E6B93 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				FB71BE872C88EE590026D5BC /* AboutView.swift */,
 				FBA2BDBB2C89B9EB00205D73 /* FizzBuzzView.swift */,
 				FBA2BDBD2C89BBA200205D73 /* CodeCreatorView.swift */,
+				FBBECB0D2C8C0631001E6B93 /* CodeView.swift */,
 			);
 			path = mainView;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				FBB39CE62C89DB1F00AE3BF5 /* FizzBuzzAlgViewModel.swift in Sources */,
 				FBA2BDBE2C89BBA200205D73 /* CodeCreatorView.swift in Sources */,
 				FB71BE882C88EE590026D5BC /* AboutView.swift in Sources */,
+				FBBECB0E2C8C0631001E6B93 /* CodeView.swift in Sources */,
 				FBA2BDC02C89BEBF00205D73 /* FizzBuzzAlgModel.swift in Sources */,
 				FB1650842C898FE400C18D18 /* BackgroundImageView.swift in Sources */,
 				FBA2BDBA2C89B96100205D73 /* NiceTextView.swift in Sources */,

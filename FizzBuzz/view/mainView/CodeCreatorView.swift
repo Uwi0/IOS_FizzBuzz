@@ -1,8 +1,17 @@
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct CodeCreatorView: View {
+    var fizzBuzzAlgViewModel = FizzBuzzAlgViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(fizzBuzzAlgViewModel.fizzBuzzModel) { item in
+                NavigationLink(item.name) {
+                    CodeView(text: item.actualFizzBuzzCode)
+                }
+            }
+            .navigationTitle("Fizz Buzz")
+        }
     }
 }
 
